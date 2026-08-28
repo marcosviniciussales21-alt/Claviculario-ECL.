@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Local/generated application data
+data/
+backups/
+protocolos/
+relatorios/
+logs/
+
+# Databases / spreadsheets used as application data
+*.db
+*.sqlite
+*.sqlite3
+*.xlsx
+*.xls
+
+# Secrets / environment
+.env
+.env.*
+*.pem
+*.key
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

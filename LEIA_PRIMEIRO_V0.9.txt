@@ -1,0 +1,38 @@
+CLAVICULÁRIO ECL v0.9 PROFISSIONAL
+
+NOVIDADES
+1. Instalador profissional:
+   - Instala em C:\Claviculario_ECL
+   - Cria atalho na Área de Trabalho
+   - Cria atalho no Menu Iniciar
+   - Registra o programa em Aplicativos instalados
+   - Inclui Desinstalar_Claviculario_ECL.exe
+   - Atualização preserva data/backups/protocolos/relatorios/logs
+
+2. GOOGLE DRIVE / BACKUP
+   - Nova opção no menu lateral.
+   - Seleciona a pasta sincronizada do Google Drive.
+   - Backup cria ZIP com a base, protocolos e relatórios.
+   - Envia a cópia para Google Drive.
+   - Restaura um backup em outro computador.
+   - Antes de restaurar, cria backup local de segurança.
+
+3. MAPA 1-200
+   - Passe o mouse sobre qualquer número.
+   - Mostra Código ECL, descrição, módulo, local, cópias,
+     disponíveis, retiradas e situação.
+   - Posição livre também é identificada no hover.
+   - O clique continua abrindo as opções de editar/retirar/liberar.
+
+PARA GERAR O INSTALADOR
+- Execute GERAR_INSTALADOR_V0.9.bat.
+- Ao final, leve ao pendrive:
+  INSTALADOR_PRONTO\Setup_Claviculario_ECL.exe
+
+NO OUTRO PC
+- Execute o Setup como administrador.
+- Instala em C:\Claviculario_ECL.
+- Não precisa de Python.
+- Para restaurar seus dados:
+  abra Google Drive / Backup, conecte a mesma pasta do Drive
+  e clique em Restaurar backup.

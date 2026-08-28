@@ -1,0 +1,1 @@
+﻿@echo off\ntitle Claviculario ECL v0.8\ncd /d "%~dp0"\npy -m pip install -r requirements.txt\npy app.py\npause\n
